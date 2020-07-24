@@ -1,0 +1,42 @@
+.student {
+    margin-top: 1vh;
+    position: absolute;
+    
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 80%;
+    background-color: white;
+
+    border: black 1px solid;
+    border-radius: 15px;
+
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    
+    text-align: center;
+    text-transform: uppercase;
+
+    &__name {
+        border-bottom: black 1px solid;
+    }
+
+    &__image {
+        height: 20vh;
+    }
+
+    &__details {
+        list-style: none;
+        
+    }
+
+    &__item {
+        border-bottom: lightgrey 1px solid;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        &:nth-child(odd) {
+            background-color: lightgrey;
+        }
+    }
+}

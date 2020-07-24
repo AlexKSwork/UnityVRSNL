@@ -1,0 +1,87 @@
+.accounts {
+    height: 70%;
+    overflow: hidden;
+    overflow-y: scroll;
+
+    &__title {
+        width: 100%;
+
+        text-align: center;
+        text-transform: uppercase;
+
+        font-size: 1.5rem;
+        font-weight: 500;
+
+        display: inline-block;
+
+        background-image: linear-gradient(to right, 
+            rgb(0, 3, 182), 
+            rgb(0, 3, 222));
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    &_detail {
+        text-align: center;
+        font-size: 1.5rem;
+
+        padding-top: 1vh;
+        padding-bottom: 0.5vh;
+
+        border-bottom: black 1px dashed;
+        &--user {
+
+        }
+        &--pass {
+            margin-left: 3vw;
+        }
+    }
+}
+
+.add {
+    &__title {
+        width: 100%;
+
+        text-align: center;
+        text-transform: uppercase;
+
+        font-size: 1.5rem;
+        font-weight: 500;
+
+        display: inline-block;
+        
+        background-image: linear-gradient(to right, 
+            rgb(0, 3, 182), 
+            rgb(0, 3, 222));
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    &__text {
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__input {
+        margin: auto;
+        display: block;
+        width: 25%;
+    }
+
+    &__btn {
+        width: 25%;
+        height: 5vh;
+
+        color: white;
+        background-image: linear-gradient(to right, 
+        rgb(0, 3, 182), 
+        rgb(0, 3, 222));
+
+        border-radius: 15px;
+
+        text-transform: uppercase;
+        font-size: 1.5rem;
+
+        margin: auto;
+        display: block;
+        margin-top: 3vh;
+    }
+}

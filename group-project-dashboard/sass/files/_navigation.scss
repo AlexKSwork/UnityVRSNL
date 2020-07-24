@@ -1,0 +1,71 @@
+.navigation {
+    height: 100%;
+
+    color: white;
+    background-image: linear-gradient(
+                        to right bottom,
+                        rgba(rgb(0, 3, 182), 0.8),
+                        rgba(rgb(0, 3, 182), 0.8)),
+                url("./images/navigation/nav-bg.jpg");
+
+    text-transform: uppercase;
+    text-align: center;
+
+    &__title {
+        position: relative;
+
+        width: 80%;
+
+        margin-top: 1vh;
+        margin-bottom: 3vh;
+        padding: 1vh;
+
+        left: 50%;
+        transform: translateX(-50%);
+
+        border-bottom: white 2px solid;
+    }
+
+    &__nav {
+        width: 100%;
+        list-style: none;
+    }
+
+    &__link {
+        width: 75%;
+        height: 4vh;
+
+        font-size: 1.5rem;
+        text-transform: uppercase;
+
+        background-color: transparent;
+        color: white;
+
+        border: none; 
+        border-radius: 10px;
+
+        margin-bottom: 2vh;
+
+        &:hover {
+            background-color: rgba(196, 196, 196, 0.6);
+            color: black;
+        }
+
+        &--active {
+            background-color: rgba(196, 196, 196, 0.6);
+            color: black;
+            border: lightgrey 1px solid;
+        }
+    }
+
+    &__img {
+        &--bottom {
+            position: absolute;
+
+            bottom: 0;
+
+            transform: translateX(-50%);
+            width: fit-content;
+        }
+    }
+}

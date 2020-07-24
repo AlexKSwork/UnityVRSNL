@@ -1,0 +1,17 @@
+.error {
+
+    margin-top: 5vh;
+
+    border: #ff1919 1px solid;
+    background-color: #ffe3e3;
+    color: #ff1919;
+
+    &__heading {
+        margin-top: 1vh;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+    }
+    &__text {
+        margin-bottom: 1vh;
+    }
+}

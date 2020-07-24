@@ -1,0 +1,27 @@
+.feature {
+    margin-top: 2vh;
+
+    border: black 2px solid;
+
+    background-color: white;
+
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+    text-transform: uppercase;
+    text-align: center;
+
+    &__title {
+        border-bottom: lightgrey 1px solid;
+    }
+
+    &__content {
+        font-weight: 700;
+        font-size: 4rem;
+    }
+
+    &:hover {
+        box-shadow: 0 12px 20px 0 rgba(0,0,0,0.2);
+    }
+}

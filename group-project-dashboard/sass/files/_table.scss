@@ -1,0 +1,31 @@
+table {
+    width: 100%;
+}
+th, td {
+    width: 20%;
+    border: black 1px solid;
+}
+
+th {
+    font-size: 1.5rem;
+
+    display: inline-block;
+    background-image: linear-gradient(to right, 
+        rgb(0, 3, 182), 
+        rgb(0, 3, 222));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+td {
+    font-size: 2rem;
+
+    display: inline-block;
+    background-image: linear-gradient(to right, 
+        rgb(0, 3, 182), 
+        rgb(0, 3, 222));
+    -webkit-background-clip: text;
+    color: transparent;
+
+    font-weight: 700;
+}

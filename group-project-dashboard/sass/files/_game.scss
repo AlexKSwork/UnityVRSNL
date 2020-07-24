@@ -1,0 +1,24 @@
+.game {
+    &__table {
+        table-layout: fixed;
+        width: 100%;
+
+        text-align: center;
+    }
+
+    &__heading {
+        width: 7%;
+    }
+
+    &__player {
+        width: 7%;
+    }
+
+    &__row--heading {
+        width: 10%;
+    }
+
+    &__position {
+
+    }
+}

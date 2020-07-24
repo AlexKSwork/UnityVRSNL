@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    display: flexbox;
+    width: 100vw;
+    height: 100vh
+}
+
+nav {
+    float: left;
+    width: 15%;
+}
+
+.content {
+    height: 100%;
+    float:left;
+    width: 85%;
+}
+
+.main {
+
+    height: 93vh;
+    width: 100%;
+
+    overflow: hidden;
+    overflow-y: scroll;
+
+    background-color: #e4e4e4;
+}
