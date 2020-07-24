@@ -1,0 +1,58 @@
+.questionblock {
+    width: 90%;
+
+    margin-left: 4vw;
+    margin-top: 2vh;
+
+    border: black 2px solid;
+
+    background-color: white;
+
+    &__question {
+        border-bottom: black 2px solid;
+        &--text {
+            margin-left: 2vw;
+            font-weight: 700 !important;
+            font-size: 1.7rem !important;
+        }
+    }
+
+    &__answers {
+
+        text-transform: uppercase;
+        font-weight: 500;
+        
+        &--answer {
+            &:nth-child(odd) {
+                background-color: lightgrey;
+            }
+            padding-top: 1vh;
+            padding-bottom: 1vh;
+            width: 100%;
+        }
+
+        &--text {
+            width: 20%;
+        }
+
+        &--input {
+            width: 90%;
+        }
+    }
+
+    &__btn {
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+
+        border-radius: 15px;
+
+        width: 100%;
+
+        background-image: linear-gradient(to right, rgb(0, 3, 182), rgb(0, 3, 222));
+        color: white;
+
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+}
